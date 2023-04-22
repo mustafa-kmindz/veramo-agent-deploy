@@ -1,7 +1,7 @@
 {
     "name": "Veramo Agent",
     "description": "Minimal deployment of @veramo/cli agent server to Heroku",
-    "repository": "https://github.com/uport-project/veramo-agent-deploy",
+    "repository": "https://github.com/mustafa-kmindz/veramo-agent-deploy",
     "keywords": [
       "node",
       "veramo",
@@ -12,7 +12,7 @@
     "env": {
       "BASE_URL": {
         "description": "The url for which your DID will be based on",
-        "value": "https://APP_NAME.herokuapp.com"
+        "value": "https://veramo-cloud.herokuapp.com"
       },
       "API_KEY": {
         "description": "A secret key for verifying requests",
@@ -30,5 +30,6 @@
         "description": "The messaging endpoint for your agent",
         "value": "/messaging"
       }
-    }
+    },
+    "stack": "container"
   }
